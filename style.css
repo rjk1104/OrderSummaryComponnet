@@ -1,0 +1,73 @@
+body{
+    background-image: url("images/pattern-background-mobile.svg");
+    background-repeat: repeat-x;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+.card{
+   text-align: center;
+   margin:100px auto;
+   background-color: white;
+   width:400px;
+   height:700px;
+   border-radius: 20px;
+}
+.card-header img{
+    width:400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-body h2{
+    font-weight: bolder;
+    padding: 20px;
+}
+.card-body p{
+    padding:20px;
+    color:grey;
+}
+.card-footer{
+    background-color: hsl(225, 100%, 98%);
+    text-align: center;
+    display: inline-flex;
+    padding:20px 40px 20px 40px;
+    margin:20px;
+    border-radius: 10px;
+}
+.ico,.plan,.change{
+    margin:5px;
+}
+.plan{
+    margin-right: 30px;
+}
+.change{
+    text-decoration: underline;
+    color:blue;
+}
+.payment,.cancel{
+    width:80%;
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+.payment{
+    border: none;
+    background-color: blue;
+    color:white;
+    font-size: 1.2rem;
+    padding:10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.payment:hover{
+    background-color: hsl(245, 75%, 52%);
+}
+.cancel{
+    padding-bottom: 30px;
+    color:gray;
+}
+
+@media (min-width:600px){
+    body{
+        background-image: url("images/pattern-background-desktop.svg");
+    }
+}
