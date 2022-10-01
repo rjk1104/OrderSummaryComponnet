@@ -55,8 +55,9 @@ body{
     color:white;
     font-size: 1.2rem;
     padding:10px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .payment:hover{
     background-color: hsl(245, 75%, 52%);
